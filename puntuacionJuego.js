@@ -69,3 +69,4 @@ case 2:
             alert("Opción no válida.");
             break;
     }
+    }
