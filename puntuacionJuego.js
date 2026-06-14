@@ -1,7 +1,7 @@
 let puntuaciones = [];
 let continuarRegistro = true;
 while (continuarRegistro == true) {
-let menu = "Registro de Puntuaciones ---\n"
+let menu = "Registro de Puntuaciones ---\n" +
 "1. Registrar Nueva Puntuación\n" +
 "2. Ver Todas las Puntuaciones\n" +
 "3. Eliminar Puntuación por Posición\n" +
@@ -68,5 +68,5 @@ case 2:
         default:
             alert("Opción no válida.");
             break;
-    }
+        }
     }
